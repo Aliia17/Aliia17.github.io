@@ -1,0 +1,21 @@
+.dummy {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    margin: 0 auto}
+
+    .logo {display: inline-block;
+        margin-left: 0cm;
+        bottom: 460px;
+        position:absolute;
+        object-fit: cover;
+        background-color: unset !important;
+    }
+
+    @media (max-width: 768px) {
+        .logo-container {
+          margin-top: 20px; /* adjust top margin as needed */
+        }
+      } 
+

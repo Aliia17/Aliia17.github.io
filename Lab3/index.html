@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport"
-  content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main1.css">
+  <link rel="stylesheet" href="main.css">
   <title>CSS Design</title>
-  
 </head>
 <body>
   <!-- HEADER -->
@@ -17,13 +14,11 @@
   </header>
 
   <!-- Navbar -->
-  <nav class="mobile-menu"> 
+  <nav> 
       <a class="logo" href="#">
-      <div class="logo-container">
         <img src="logo1.jpg" alt="logo" width="80px" height="80px">
-      </div>
       </a>
-      <ul class="menu stacked col-12 col-s-12 col-">
+      <ul class="menu">
         <li><a class="active" href="#task">Task</a></li>
         <li><a href="#requirements">Requirements</a></li>
         <li><a href="#submission">Submission</a></li>
@@ -33,16 +28,14 @@
       </ul>
   </nav>
 
-<div class="container"> 
-  <div class="main-content">
   <!-- Main Content -->
   <section class="main_content">
-    <h1 id="main-heading" class="topic col-12 col-s-12">
+    <h1 id="main-heading" class="topic">
       Lab 4 - Designing with CSS 
     </h1>
     <hr>
     <article id="task">
-    <img class="img1 col-4" src="france.jpg" alt="">
+    <img class="img1" src="france.jpg" alt="" width="300px" height="210">
       <h2 id="color">Task</h2>
       <p id="text1">
         As you have alredy learned in the last lecture, 
@@ -63,9 +56,10 @@
 
     
     </article>
-    <article id="requirements" class="col-12">
+    <article id="requirements">
       <h2 id="color">Requirements</h2>
       <p>
+        
         The main requirement for this task is to 
         style this HTML document without any 
         changes (including adding new and deleting the existing elements) to itself except for these cases: 
@@ -136,22 +130,20 @@
       <h3>Info</h3>
       <p>
          Insert an image of yourself here.
-         <img class="img2 col-2" src="me.jpg" alt="" >
+         <img class="img2" src="me.jpg" alt="" width="200px" height="210">
 
         <ul>
           <li> Aliia Bekmagambetova </li>
         </ul>
       </p>
     </article>
-
-    <article id="grading" class="col-12">
+    <article id="grading">
       <h2 id="color">Grading</h2>
       For this assignment you will get 
       <strong>70 points</strong>  in total.
       The final score is the sum of the points 
       for each of the criteria below.
-      <section class="table-container col-s-12 !important">
-      <table class="col-5 col-s-12">
+      <table>
         <tr>
           <th>Criteria</th>
           <th>Points</th>
@@ -199,11 +191,9 @@
         </tr>
         </tr>
       </table>
-      </section>
     </article>
-  </div>
+  </section>
 
-<div class="aside-content">
   <!-- Aside Information -->
   <aside>
     <h3>Important</h3>
@@ -221,9 +211,9 @@
      
         <h3>Some Dummy Content</h3>
         
-  <section class="dummy col-10 col-s-12">
+       <section id="dummy">
         <article>
-        <h4 id="dummy"> Article 1</h4>
+        <h4>Article 1</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, 
           adipisicing elit. Odit, fugiat eveniet! 
@@ -235,7 +225,7 @@
         </p>
       </article>
       <article>
-        <h4 id="dummy">Article 2</h4>
+        <h4>Article 2</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, 
           adipisicing elit. Odit, fugiat eveniet! 
@@ -247,7 +237,7 @@
         </p>
       </article>
       <article>
-        <h4 id="dummy">Article 3</h4>
+        <h4>Article 3</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, 
           adipisicing elit. Odit, fugiat eveniet! 
@@ -258,10 +248,10 @@
           <a id="dummyref" href="#">More...</a>
         </p>
       </article>
-  </section>
+</section>
+
   </aside>
-</div>
-</div>
+
   <!-- FOOTER -->
   <footer>
     <div class="contacts">
@@ -310,6 +300,5 @@
       </ul>
     </div>
   </footer>
-</section>
 </body>
 </html>
